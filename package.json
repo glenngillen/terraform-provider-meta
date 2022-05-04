@@ -1,6 +1,6 @@
 {
-  "name": "terraform-provider-meta",
-  "version": "1.0.0",
+  "name": "@glenngillen/terraform-provider-meta",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/glenngillen/terraform-provider-meta.git"
+    "url": "git://github.com/glenngillen/terraform-provider-meta.git"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   },
   "author": "",
   "license": "ISC",
